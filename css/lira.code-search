@@ -1,0 +1,14 @@
+# Query: lira
+# ContextLines: 1
+
+3 results - 2 files
+
+home.html:
+  72    <div class="row"><div class="col-12 t6">  <img class="line" src="img/line.png" >
+  73:   <img class="lira text-center" src="img/lira.png" >
+  74    <img class="line" src="img/line.png" >
+
+css\kosak.css:
+  469  
+  470: .lira{ width: 25px;m}
+  471  
