@@ -1,12 +1,15 @@
 *{text-decoration: none;
   
   font-family: 'Old Standard TT', serif;
+;
   color: gold;
 
   
   text-decoration: none;
 ;
   padding: 0px;}
+  *  p{text-indent: 10px;}
+
 a{text-decoration: none;}
 html{
 background-color:blue;
@@ -28,6 +31,7 @@ h1, h2,h3{
   color: gold;
 }
 
+ .container .row .col-12 .text6{text-indent:60px;}
 
 
 .nav-link,.logo
@@ -35,7 +39,6 @@ h1, h2,h3{
 h2{
   font-size: 1.8em;
 }
-
 
 h3{
   font-size: 15px;
@@ -83,10 +86,20 @@ input[placeholder]:hover
 
   /*site_content*/
  .row .col-12 .gerb{width: 120px;}
-
+.card{background-color:blue;}
 .card-title{text-align: center;
+  padding: 1vw;
 color: gold;}
 .card-body{background-color: blue ;}
+.card-text h2 {padding-bottom:2vw;text-align: center;
+  font-size: 35px;
+  font-weight: 900;
+  }
+  
+
+.card-text{padding: 1vw 2vw 2vw;
+font-size: 25px;
+}
 
     footer{
       background-color: rgb(15, 48, 123);
@@ -183,7 +196,22 @@ justify-content: center;}
   .nav-link:hover{color: gold;}
   img{width: 100%;}
   .booking{position: relative;
+
   margin: 1vw auto;
-  padding: 2vw;
+  padding:0;
 border: 1px solid gold;
 background-color: blue;}
+.booking .col-12 .contact-wrap ul{padding: 1vw 2vw 15px;
+width: 100%;
+list-style: none;
+}
+.booking .col-12 {margin: 0;padding: 0;}
+
+.booking .col-12 h2{margin: 0px;padding: 10px;
+  background-color: gold;
+  
+  text-align: center;color: rgb(21, 19, 168);}
+  .booking .col-12 .contact-wrap ul li i,p{display: inline;width: 100%;}
+  .booking .col-12 .contact-wrap ul li i{padding-right: 35px;}
+  .img-bg{background-color:#fbd00f;background-size: contain;background-repeat: no-repeat;
+  width: 450px;height: 500px;}
