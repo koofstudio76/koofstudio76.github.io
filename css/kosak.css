@@ -130,7 +130,10 @@ margin: auto;}
 
 .lira{ width:30px;
 margin: 0 auto;}
+.gerb_item{margin-top: 2vw;}
 
+.gerb_item h2{font-size: clamp(32px, 18px, 14px);font-weight: 900;}
+.g-1 h2{margin-left: 90px;font-size: clamp(32px, 18px, 14px) ;}
 @media(max-width:786px){
 
   .navbar-brand img{width: 75px;margin: 0;padding: 0;}
@@ -215,3 +218,4 @@ list-style: none;
   .booking .col-12 .contact-wrap ul li i{padding-right: 35px;}
   .img-bg{background-color:#fbd00f;background-size: contain;background-repeat: no-repeat;
   width: 450px;height: 500px;}
+  .nav-item .g-1{font-size: 22px;}
